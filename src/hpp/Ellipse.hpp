@@ -9,7 +9,7 @@
 
 #ifndef ELLIPSE_HPP
 #define ELLIPSE_HPP
-#include "forme.hpp"
+#include "../hpp/Forme.hpp"
 
 /*! \class Ellipse
    * \brief Classe permettant de créer une ellipse

@@ -9,7 +9,7 @@
 #ifndef FORMES_HPP
 #define FORMES_HPP
 
-#include "Forme.hpp"
+#include "../hpp/Forme.hpp"
 
 /*! \class Formes
    * \brief Classe permettant la gestion de formes

@@ -9,7 +9,7 @@
 #ifndef RECTANGLE_HPP
 #define RECTANGLE_HPP
 
-#include "Forme.hpp"
+#include "../hpp/Forme.hpp"
 
 /*! \class Rectangle
    * \brief classe permettant la création d'un rectangle

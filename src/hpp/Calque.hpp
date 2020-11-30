@@ -9,7 +9,7 @@
 #ifndef CALQUE_HPP
 #define CALQUE_HPP
 
-#include "Formes.hpp"
+#include "../hpp/Formes.hpp"
 
 /*! \class Calque
    * \brief Classe permettant la gestion de calques

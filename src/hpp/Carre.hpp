@@ -9,7 +9,7 @@
 #ifndef CARRE_HPP
 #define CARRE_HPP
 
-#include "Forme.hpp"
+#include "../hpp/Forme.hpp"
 
 /*! \class Carre
    * \brief Classe permettant de créer des carrés

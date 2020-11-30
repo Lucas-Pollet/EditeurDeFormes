@@ -9,7 +9,7 @@
 #ifndef IMAGE_HPP
 #define IMAGE_HPP
 
-#include "Forme.hpp"
+#include "../hpp/Forme.hpp"
 
 /*! \class Image
    * \brief Classe permettant de créer une image

@@ -9,7 +9,7 @@
 #ifndef FORME_HPP
 #define FORME_HPP
 
-#include "Point.hpp"
+#include "../hpp/Point.hpp"
 
 /*! \class Forme
    * \brief Classe permettant de créer des formes

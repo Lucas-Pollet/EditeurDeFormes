@@ -11,7 +11,7 @@
 
 #include <iostream>
 
-#include "ez-draw++.hpp"
+#include "../hpp/ez-draw++.hpp"
 
 using namespace std;
 

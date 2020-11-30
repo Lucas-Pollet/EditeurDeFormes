@@ -12,8 +12,8 @@
 #include <vector>
 #include <cmath>
 
-#include "Forme.hpp"
-#include "Point.hpp"
+#include "../hpp/Forme.hpp"
+#include "../hpp/Point.hpp"
 #define PI 3.14159265358979323846264338327950288419716939937510582
 
 /*! \class Polygone

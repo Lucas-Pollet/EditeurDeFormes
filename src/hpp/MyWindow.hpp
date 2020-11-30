@@ -13,8 +13,8 @@
 #include <cstring>
 #include <string>
 
-#include "Formes.hpp"
-#include "Calque.hpp"
+#include "../hpp/Formes.hpp"
+#include "../hpp/Calque.hpp"
 #define PI 3.14159265358979323846264338327950288419716939937510582
 
 /*! \class MyWindow

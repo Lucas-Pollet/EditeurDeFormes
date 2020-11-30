@@ -8,7 +8,7 @@
 
 #ifndef CERCLE_HPP
 #define CERCLE_HPP
-#include "forme.hpp"
+#include "../hpp/Forme.hpp"
 
 /*! \class Cercle
    * \brief Classe permettant de créer des cercles
