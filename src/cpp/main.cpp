@@ -9,8 +9,8 @@
 
 using namespace std;
 
-#include "ez-draw++.hpp"
-#include "MyWindow.hpp"
+#include "../hpp/ez-draw++.hpp"
+#include "../hpp/MyWindow.hpp"
 
 int main()
 {

@@ -10,7 +10,7 @@
 using namespace std;
 
 
-#include "Forme.hpp"
+#include "../hpp/Forme.hpp"
 
 Forme::Forme(ulong _couleur, uint _x, uint _y)
  : couleur(_couleur),ancre(_x,_y),selected(true) //peutetre pas selected
@@ -63,12 +63,12 @@ ostream& Forme::ecrire(ostream& os) const
     return os;
 }
 
-#include "Rectangle.hpp"
-#include "Cercle.hpp"
-#include "Carre.hpp"
-#include "Ellipse.hpp"
-#include "Polygone.hpp"
-#include "Image.hpp"
+#include "../hpp/Rectangle.hpp"
+#include "../hpp/Cercle.hpp"
+#include "../hpp/Carre.hpp"
+#include "../hpp/Ellipse.hpp"
+#include "../hpp/Polygone.hpp"
+#include "../hpp/Image.hpp"
 
 Forme* Forme::charger(istream& is)
 {

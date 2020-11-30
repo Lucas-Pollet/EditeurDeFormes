@@ -6,7 +6,7 @@
  *
  */
 
-#include "Point.hpp"
+#include "../hpp/Point.hpp"
 
 
 Point::Point (uint _x,uint _y)

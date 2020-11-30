@@ -13,7 +13,7 @@
 
 using namespace std;
 
-#include "Cercle.hpp"
+#include "../hpp/Cercle.hpp"
 
 Cercle::Cercle(ulong couleur_, ulong x_, ulong y_, ulong rayon_)
 	:Forme(couleur_,x_,y_),rayon(rayon_)

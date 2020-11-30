@@ -12,19 +12,19 @@
 
 using namespace std;
 
-#include "ez-draw++.hpp"
-#include "MyWindow.hpp"
+#include "../hpp/ez-draw++.hpp"
+#include "../hpp/MyWindow.hpp"
 
-#include "Formes.hpp"
-#include "Calque.hpp"
+#include "../hpp/Formes.hpp"
+#include "../hpp/Calque.hpp"
 
-#include "Point.hpp"   // Uniquement pour le constructeur qui peuple la fenêtre
-#include "Ellipse.hpp" // avec quelques formes.
-#include "Cercle.hpp"
-#include "Rectangle.hpp"
-#include "Carre.hpp"
-#include "Polygone.hpp"
-#include "Image.hpp"
+#include "../hpp/Point.hpp"   // Uniquement pour le constructeur qui peuple la fenêtre
+#include "../hpp/Ellipse.hpp" // avec quelques formes.
+#include "../hpp/Cercle.hpp"
+#include "../hpp/Rectangle.hpp"
+#include "../hpp/Carre.hpp"
+#include "../hpp/Polygone.hpp"
+#include "../hpp/Image.hpp"
 
 #ifdef ADVANCED_FACTORY
 bool MyWindow::needInitialization=true;

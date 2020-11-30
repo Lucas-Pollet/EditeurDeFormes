@@ -13,7 +13,7 @@
 
 using namespace std;
 
-#include "Ellipse.hpp"
+#include "../hpp/Ellipse.hpp"
 
 Ellipse::Ellipse(ulong couleur_, ulong x_, ulong y_, ulong demilargeur_, ulong demihauteur_)
 	:Forme(couleur_,x_,y_),demilargeur(demilargeur_),demihauteur(demihauteur_)

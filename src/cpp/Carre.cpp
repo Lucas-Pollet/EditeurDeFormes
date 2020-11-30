@@ -11,7 +11,7 @@
 
 using namespace std;
 
-#include "Carre.hpp"
+#include "../hpp/Carre.hpp"
 
 Carre::Carre(ulong couleur_, uint x_, uint y_, uint cote_)
 : Forme(couleur_, x_, y_), cote(cote_)

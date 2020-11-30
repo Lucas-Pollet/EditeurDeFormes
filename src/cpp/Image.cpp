@@ -8,7 +8,7 @@
 
 using namespace std;
 
-#include "Image.hpp"
+#include "../hpp/Image.hpp"
 
 Image::Image(uint x_, uint y_, const char * path_)
 : Forme(ez_white, x_, y_), path(path_), image(nullptr){

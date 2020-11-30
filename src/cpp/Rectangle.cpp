@@ -11,7 +11,7 @@
 
 using namespace std;
 
-#include "Rectangle.hpp"
+#include "../hpp/Rectangle.hpp"
 
 Rectangle::Rectangle(ulong _couleur, uint _x, uint _y, uint _largeur, uint _hauteur)
  : Forme(_couleur,_x,_y), largeur(_largeur), hauteur(_hauteur)

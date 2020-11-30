@@ -10,7 +10,7 @@
 
 using namespace std;
 
-#include "Polygone.hpp"
+#include "../hpp/Polygone.hpp"
 
 
 Polygone::Polygone(ulong _couleur, int _x, int _y, std::vector<Point> _tabPoint, uint _rayon)

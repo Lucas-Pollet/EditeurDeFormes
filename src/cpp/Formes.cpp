@@ -12,9 +12,9 @@
 
 using namespace std;
 
-#include "ez-draw++.hpp"
+#include "../hpp/ez-draw++.hpp"
 
-#include "Formes.hpp"
+#include "../hpp/Formes.hpp"
 
 Formes::Formes(unsigned int taille)
 :maxformes(taille),nbformes(0),formes(nullptr)

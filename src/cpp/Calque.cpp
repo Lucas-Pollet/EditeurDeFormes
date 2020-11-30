@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-#include "Calque.hpp"
+#include "../hpp/Calque.hpp"
 
 Calque::Calque(unsigned int taille)
 :maxele(taille),nbele(0),selectionne(0), calques(nullptr)

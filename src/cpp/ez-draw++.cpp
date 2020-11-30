@@ -659,7 +659,7 @@ const char *ez_win_msg_name (unsigned int m);
 /* To debug, define environment variable EZ_IMAGE_DEBUG */
 
 // Mis au dessus de l'inclusion #define EZ_PRIVATE_DEFS 1
-#include "ez-draw++.hpp"
+#include "../hpp/ez-draw++.hpp"
 
 /* Contains internal parameters of ez-draw.c */
 Ez_X ezx;
@@ -3801,7 +3801,7 @@ double EZDraw::getTime() { return ez_get_time(); }
 #ifndef EZ_IMAGE__H
 #define EZ_IMAGE__H
 
-#include "ez-draw++.hpp"
+#include "../hpp/ez-draw++.hpp"
 #include <math.h>
 
 #ifndef M_PI
